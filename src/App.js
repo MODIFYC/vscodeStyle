@@ -2,6 +2,8 @@ import React from 'react';
 import Hello from './Hello';
 import Wrapper from './Wrapper';
 import Counter from './Counter';
+import InputSample from './InputSample';
+import AudioSample from './AudioSample';
 
 function App() {
   //name 정의
@@ -27,8 +29,10 @@ function App() {
       <Hello name="react" color="red" isSpecial/>
       <Hello color="pink" />
       <Counter /> 
-    </Wrapper>
-
+      </Wrapper>
+      <InputSample />
+      <hr />
+      <AudioSample />
     </>
   );
 }
