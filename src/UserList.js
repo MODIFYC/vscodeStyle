@@ -12,7 +12,7 @@ function User({ user, onRemove, onToggle }) {
 
   useEffect(() => {
     console.log(user);
-  }, deps, []);
+  },);
 
   return (
     <div>
