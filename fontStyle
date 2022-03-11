@@ -1,0 +1,30 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Material Theme Darker High Contrast"
+
+    //터미널, 에디터
+    "workbench.colorCustomizations": {
+    
+        
+        "terminal.background": "#1c1f20"
+        "terminal.foreground": "#e3f6ff"
+        "terminal.selectionBackground": "#0b79ac"
+
+        "editor.background": "#1c1f20"
+        "editor.selectionBackground": "#0080bb"
+        "editor.wordHighlightBackground": "#11455f"
+
+    }
+    //주석 색상
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#992680",
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    }
+}
